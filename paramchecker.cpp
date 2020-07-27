@@ -1,6 +1,6 @@
 
 bool vitalsAreOk(float bpm, float spo2, float respRate) {
-  int i,j;
+  int i =0,j=0;
   if(bpm < 70)
     i++;
   if(bpm > 150) 
