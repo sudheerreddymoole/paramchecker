@@ -16,7 +16,7 @@ bool IsResultOkay(float val, float min_lim, float max_lim)
 
 bool vitalsAreOk(float bpm, float spo2,float respRate)
 {
-  return (bpmIsOk(bpm) && spo2RetVal(spo2) && respRateRetVal(respRate));
+  return (bpmIsOk(bpm) && spo2IsOk(spo2) && respRateIsOk(respRate));
 }
 
 bool bpmIsOk(float bpm) {
