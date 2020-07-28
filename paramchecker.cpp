@@ -23,13 +23,13 @@ bool vitalsAreOk(float bpm, float spo2,float respRate)
 }
 
 bool bpmIsOk(float bpm) {
-  isReadingsOk(bpm, 70, 150);
+  IsResultOkay(bpm, 70, 150);
 }
 
 bool spo2IsOk(float spo2) {
-  isReadingsOk(spo2, 80, 150);
+  IsResultOkay(spo2, 80, 150);
 }
 
 bool respRateIsOk(float respRate) {
-  isReadingsOk(respRate, 30, 60);
+  IsResultOkay(respRate, 30, 60);
 }
